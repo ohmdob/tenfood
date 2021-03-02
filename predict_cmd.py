@@ -1,7 +1,7 @@
 import predict_image as pi
 
 def predictcmd():
-    return pi.predicting('https://files.sweetlandhub.com/cve7/13647362306584.jpg')
+    return pi.predicting('https://f.ptcdn.info/758/061/000/pkqrf5dyzjNJDCFtcsU-o.jpg')
 
 print(predictcmd())
 
