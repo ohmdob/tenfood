@@ -11,6 +11,7 @@ def index():
 def predict():
     p_image_url = request.values['p_image_url']
     res = pi.predicting(p_image_url)
+    print(res)
     result = {'result':res}
     return jsonify(result)
 
